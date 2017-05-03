@@ -18,7 +18,7 @@ def index():
     # Green - #008000
     # Blue - #0000FF
     # Red - #FF0000
-    response_string = "<html> <style> body {background-color: #E0B0FF;} </style> <body> <h1> <font color='white'> Coming from Mauve on: " + str(host)+ " </font> </h1> </body> </html>"
+    response_string = "<html> <style> body {background-color: #FF0000;} </style> <body> <h1> <font color='white'> Coming from Mauve on: " + str(host)+ " </font> </h1> </body> </html>"
     return response_string
 
 
